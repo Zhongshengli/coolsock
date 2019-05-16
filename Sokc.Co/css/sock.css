@@ -1,0 +1,677 @@
+body{
+				
+				margin: 0;
+				padding: 0;
+                font-family: sans-serif;
+                background-color: black;
+                color: #ffffff;
+                text-align: center;
+                color: white;
+                
+    
+			}
+
+.navcontainer{
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            background-color: black;
+            top: 0; 
+            width: 100%; 
+            z-index: 100;
+            
+}
+
+
+.mainNav  {            
+			  
+             
+			 
+			  transition: top 3s;
+              list-style: none;
+              text-align: center;
+              display:flex;
+              
+			}
+
+
+.mainNav a {
+			  color: #ffffff;
+			  padding: 20px 10px;
+			  text-decoration: none;
+              font-size: 15px;
+              
+             
+    
+ }
+
+
+
+
+
+
+
+.mainNav a:hover {
+			  background-color: tomato;
+			}
+
+
+.mainNav .icon {
+			  display: none;
+              
+        
+			} 
+
+.logo {
+				float: left;
+                width:200px;
+                height: 50px;
+                padding: 15px;
+                
+			}
+
+/*------Header------*/
+
+#homepage{
+   background-image: url(../images/Sock1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+    height:625px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: auto auto; 
+    vertical-align:center;
+    justify-content: space-between;
+    opacity: 0.9;
+    
+}
+
+.text{
+    
+    width:100%;
+    padding:15px;
+    opacity: 0.8;
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+/*------Welcome------*/
+
+#welcome{
+    padding-top: 100px;
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    margin:0px;
+    flex-direction:column;
+    text-align: center;
+}
+
+#featured{
+    padding-top: 10px;
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    margin: 0px;
+    
+}
+
+
+.content{
+    padding-top:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sock{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+                
+    
+}
+
+.sock img{
+    width:150px;
+    height: 200px;
+    padding-bottom:10px;
+}
+
+/*------socks------*/
+
+.location{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.mySlides {
+    width: 600px;
+    height: 400px;
+    display:none;
+    
+
+}
+
+.direction{
+    padding-top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.left{
+    width: 30px;
+    color: white;
+    background-color: black;
+}
+
+.right{
+    width: 30px;
+    color: white;
+    background-color: black;
+}
+
+.hour{
+    padding-top:50px;
+    text-align: center;
+    
+    
+}
+
+.day{
+     padding-top:10px;
+     
+}
+
+.copyright{
+    padding-top: 100px;
+    
+}
+
+.socklogo img{
+    padding-top: 100px;
+    width: 100px;
+   
+}
+
+.adjust{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/*------Homepage------*/
+#contact{
+   background-image: url(../images/contactbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+    width:100%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: auto auto; 
+    vertical-align:center;
+    justify-content: space-between;
+    opacity: 0.9;}
+    
+
+.type{
+   
+    opacity: 0.8;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 150px;}
+ 
+
+
+
+
+
+.staff{
+    margin-top: 50px;
+}
+
+.works{
+    margin: 100px
+}
+
+.aboutus{
+    padding: 32px;
+   
+    
+}
+
+.Sokc{
+    padding: 20px;
+}
+
+.column1{
+    padding: 20px;
+}
+
+.column2{
+    padding: 20px;
+}
+
+.designer img{
+    width: 250px;
+    height: 250px;
+}
+
+.designer {
+    padding: 30px 30px;
+    line-height: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+                
+    
+}
+
+/*------Leaves------*/
+
+
+.leaves{
+     background-image: url(../images/leaves.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     opacity: 0.8;
+    }
+
+.specific{
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: space-between;
+    margin: 25px;
+    opacity: 0.8;
+    padding: 20px;
+    
+    
+}
+
+.live{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.there{
+    background-color: black;
+    opacity: 0.7;
+}
+
+/*------contact------*/
+
+#socklist{
+   background-image: url(../images/minions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:100%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: auto auto; 
+    vertical-align:center;
+    justify-content: space-between;
+    opacity: 0.8;
+    
+}
+
+.mini{
+   
+    width: 100%;
+    position: absolute;
+    top:80%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    opacity: 0.9;
+    }
+
+
+  
+  #species{
+    margin: 30px;
+    
+}
+
+.price{
+    margin-top: -30px;
+}
+
+.color{
+    color: burlywood;
+}
+
+.color01{
+    color: rosybrown;
+}
+
+.bigsock{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+                
+    
+}
+
+.bigsock img{
+    width:200px;
+    height: 200px;
+    padding-bottom:10px;
+}
+
+/*------socklist------*/
+
+#event{
+   background-image: url(../images/event.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:100%;
+    top: 100px;
+    position: relative;
+    display: flex;
+    margin: auto auto; 
+   align-items: center;
+    vertical-align:center;
+    justify-content: space-between;
+    }
+
+.eventlist{
+   
+    position: absolute;
+    top: 40%;
+    color: palevioletred;
+    font-size: 20px;
+    margin: 30px;
+    }
+
+.happymoment{
+    padding-top: 120px;
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    margin:0px;
+    flex-direction:column;
+    text-align: center;
+}
+
+.bgimg-1 {
+  background-image: url(../images/bgimg01.jpg);
+  height: 600px;
+  width: 100%;
+  
+  
+}
+
+.bgimg-2 {
+  background-image: url("../images/bgimg02.jpeg");
+  width: 100%;
+  height: 600px;
+  
+}
+
+.bgimg-3 {
+  background-image: url("../images/bgimg03.jpg");
+  width: 100%;
+  height: 600px;
+ 
+}
+
+
+.bgimg-4 {
+  background-image: url("../images/bgimg04.jpeg");
+  width: 100%;
+  height: 600px;
+
+}
+
+.shops{
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------media------*/
+
+
+@media screen and (max-width: 480px) {
+			  .mainNav  a {display: none;}
+			  .mainNav  a.icon {
+			    float: right;
+			    display: block;
+			  }
+			  .logo {
+			  	float: left;
+			  }
+
+			}
+
+
+@media screen and (max-width: 480px) {
+			  .mainNav.responsive {position: relative;
+                display: flex;
+                flex-direction: column;
+                 padding-right: 120px;
+                 
+                
+                
+                }
+			  .mainNav.responsive .icon {
+			    position: absolute;
+			    right: 0;
+			    top: 0;
+			  }
+.mainNav.responsive a {
+			    float: none;
+                display: flex;
+               
+                
+			  }
+   
+
+.mainNav.responsive .logo {
+			  	
+            float: none;
+            
+			  }
+			
+
+       
+    h1{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    
+    h3{
+        font-size: 14px;
+    }
+    
+    
+.socklogo img {
+				
+                width:50px;
+                padding: 25px;
+                
+ }
+
+
+    
+.mySlides {
+    width: 300px;
+    height: 250px;
+    display:none;
+    
+
+}
+
+.logo {
+				float: left;
+                width:100px;
+                height: 25px;
+               margin-right: 10px;
+                
+			}
+    
+ 
+    
+}
+
+@media screen and (max-width: 480px) 
+{
+#homepage{
+      height: 300px;  
+      width: 100%;
+      top: 60px;
+    }
+#socklist {
+        top: 0px;
+        width: 100%;
+        height: 400px;
+    } 
+
+    .sock{
+        padding: 5px;
+    }
+    .sock img{
+        width: 120px;
+        height: 120px;
+        
+    }
+    
+    .price{
+        padding: 5px;
+    }
+
+ 
+}
+
+@media screen and (max-width: 480px) {
+#contact {
+        width: 100%;
+        height: 600px;
+        
+    }
+
+    .designer img{
+    width: 150px;
+    height: 150px;
+}
+
+.designer {
+    padding: 15px 15px;
+    line-height: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}  
+
+    .specific{
+        padding: 5px;
+        background-color: gray;
+    }
+
+.works{
+        margin: 15px;
+        background-color: slategray
+    }
+
+    .staff{
+        padding: 15px;
+    }
+
+    
+
+@media screen and (max-width: 480px) {
+        #event{
+             background-image: url(../images/event02.jpg);
+             height: 500px;
+             top: 60px;
+        }
+        
+    .eventlist{
+    position: absolute;
+    top: 62%;
+    color: palevioletred;
+    font-size: 18px;
+    margin: 10px;
+    }
+    
+  .bgimg-1 {
+  background-image: url(../images/animals.jpg);
+  height: 500px;
+ 
+}
+  
+}
+
+.bgimg-2 {
+  background-image: url("../images/angela.jpeg");
+  height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url("../images/captain.jpg");
+  height: 500px;
+  
+}
+
+.bgimg-4 {
+  background-image: url("../images/kingdog.jpg");
+  height: 500px;
+  
+}
+        }
+
+
+
+    

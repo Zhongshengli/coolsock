@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sokc.Co</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/sock.css">
+
+		<style>
+
+			
+		</style>
+	</head>
+	
+
+	<body>
+		
+
+	
+	<main>
+		
+		<nav class="navcontainer" >
+		    
+			<img class="logo" src="images/Sokc.co.png">
+           
+           <div class="mainNav"  id="responsiveNav">
+            
+            <a href="homepage.html">Homepage</a>
+            <a href="contact.html">Contact</a>
+            <a href="event.html">Event</a>
+            <a href="sock.html">Socks</a>
+           <a href="javascript:void(0);" style="font-size:3.5vw;" class="icon" onclick="myFunction()">&#9776;</a>
+           
+           </div>
+		</nav>
+		
+	</main>
+
+
+
+<script>
+function myFunction() {
+var x = document.getElementById("responsiveNav");
+if (x.className === "mainNav") {
+x.className += " responsive";
+} else {
+x.className = "mainNav";
+}
+}
+</script>
+
+<div id="homepage">
+		    <div class="text">
+				<center><h3>We Service Fancy Socks</h3><br></center>
+				
+			</div>
+		</div>
+
+		<div id="welcome">
+		    <h2>Welcome to Sokc.Co</h2>
+         <div id="featured">
+             <h3>We have all kind of Socks in Sokc.Co</h3>
+         
+         </div>
+        <div class="content">
+		    <div class="sock">
+		        <img src="images/panda.jpg">
+		        <h4>Panda</h4>
+		    </div> 
+		       
+		    <div class="sock">
+		        <img src="images/anime.jpg">
+		        <h4>Captain America</h4>
+		    </div>
+		    
+		    <div class="sock">
+		        <img src="images/brand.jpg">
+		        <h4>Chilli Sauce</h4>
+		    </div>
+		    
+		    <div class="sock">
+		        <img src="images/huf.jpg">
+		        <h4>HUF</h4>
+		    </div>
+		
+            <div class="sock">
+		        <img src="images/kiwi.jpg">
+		        <h4>Fruit of Kiwi</h4>
+		      </div>
+		      
+		    <div class="sock">
+		        <img src="images/popular.jpg">
+		        <h4>Buzzword</h4>
+		    </div>
+         </div>
+        </div>
+        
+<h2 class="location">Locations of Sokc.Co</h2>
+
+  <div class="direction">
+   <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  <img class="mySlides" src="images/location.jpg" >
+  <img class="mySlides" src="images/store01.jpg" >
+  <img class="mySlides" src="images/store02.jpg" >
+  
+  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  
+        
+<script>
+
+      
+      var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>	
+
+	
+
+<h2 class="location">3251 20th Ave, San Francisco, CA 94132</h2>
+
+<h2 class="hour">Business Hours</h2>
+
+<div class="day">
+<h3>Monday 10Am-9Pm</h3>
+<h3>Tuesday 10Am-9Pm</h3>
+<h3>Wedensday 10Am-9pm</h3>
+<h3>Thursday 10Am-9Pm</h3>
+<h3>Friday 10Am-9Pm</h3>
+<h3>Saturday 10Am-9Pm</h3>
+<h3>Sunday 11Am-6Pm</h3>
+</div>
+
+<div class="adjust">
+<a class="socklogo" href="homepage.html"> <img src="images/socklogo.png">
+</a>
+</div>
+
+<h5>Go To Top</h5>
+       
+    
+        
+        
+<div class="copyright">
+			<small>&copy; Copyright 2019 Sokc.Co All Rights Reserved</small>    
+        </div>       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+</body>
+</html>
